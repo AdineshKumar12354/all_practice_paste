@@ -32,5 +32,5 @@ g.despine(bottom=True, left=True)
 
 plt.show()
 
-x_scaled=(x-x.mean(axis=0))/x.std(axis=0)
-x_scaled[:10]
+X_scaled=(x-x.mean(axis=0))/x.std(axis=0)
+X_scaled[:10]
